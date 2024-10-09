@@ -12,13 +12,14 @@ html{
 }
 
 body{
-  background-image: linear-gradient(to right, #d71fef 40%, #0083f5 80%);
+  background-image: #c6c6c6;
 }
 
 button{
   background-color: #f0f0f0;
   color: #363636;
   border: 2px solid;
+  border-radius: 8px;
   font-size: 1rem;
   padding: .3rem .6rem;
   cursor: pointer;
@@ -43,6 +44,7 @@ button i{
 
 input, select{
   padding: .25rem .5rem;
+  border-radius: 8px;
 }
 
 .hide{
