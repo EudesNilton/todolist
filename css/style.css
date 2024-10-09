@@ -58,6 +58,7 @@ input, select{
   background-color: rgba(120, 120, 120, 0.348);
   padding: 1.5rem;
   border-radius: 15px;
+
 }
 
 .todo-container header{
@@ -153,4 +154,22 @@ input, select{
   font-weight: 400;
   text-decoration: line-through;
   font-style: italic;
+}
+
+footer{
+  position: sticky;
+  bottom: 0; 
+  left: 0; 
+  width: 100%;
+  text-align: center; 
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+a{
+  list-style-type: none;
+}
+
+footer img{
+  width: 50px;
 }
